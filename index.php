@@ -1,9 +1,12 @@
-<?php $title = "トップページ" ;?> <!--ページタイトルになる部分-->
-<?php $description ="こちらがトップページです";?> <!--トップページの説明部分-->
-<?php include("./_inc/header.php");?> <!--ヘッダー共通部分-->
+<?php $title = "自己紹介";?>
+<?php $descript = "自己紹介ページになります。";?>
+<?php include ("./assets/_inc/header.php");?>
+    <div class ="contents">
+    <h2>
+        自己紹介
+    </h2>
+    </div>
+    <aside  class ="sidebar">
 
-<div class="contents">
-<h1>テスト</h1>
-</div>
-
-<?php include("./_inc/fotter.php");?>
+    </aside>
+<?php include ("./assets/_inc/fotter.php");?>
