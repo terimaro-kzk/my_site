@@ -14,7 +14,7 @@
     <div class ="wrapper">
         <header>    
             <h1>
-                <a href="">てりまろのWeb制作</a>
+                <a href="index.php">てりまろのWeb制作</a>
             </h1>
             <nav>
                 <ul>
