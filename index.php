@@ -24,6 +24,10 @@ if (isset($_POST['submit'])){
         $errors['name'] = '※名前を入力してください';
     }
 
+    if(strlen($name) >= 50){
+        $errors['name'] = '※名前が長すぎます。正しい名前を入力してください';
+    }
+
     if(empty($content) === true){
         $errors['content'] = '※お問い合わせ内容を入力してください';
     }
@@ -61,14 +65,24 @@ if(isset($_GET) && isset($_GET['action']) && isset($_GET['action']) === 'edit'){
 <?php $descript = "自己紹介ページになります。";?>
 <?php include ("./assets/_inc/header.php");?>
     <div class ="contents">
+        <section class ="main_visual">
+            <div class ="container">
+                <div class ="title">
+                    <h1>こつこつと制作中</h1>
+                    <p>これからいろいろなもの作っていきます！</p>
+                </div>
+            </div>
+        </section>
+    
         <h2 class="contents_title">
             自己紹介
         </h2>
         <section class ="intoroduce">
             <div class ="content-item">
                 <div class="text">
-                    <p>私の名前はてりまろです。</p>
+                    <p>私の名前は〇〇です。</p>
                     <p>よろしくお願い致します。</p>
+                    <p>※ここは今後追加予定</p>
                 </div>
             </div>
             <div class= "image-container"> 

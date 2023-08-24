@@ -1,5 +1,7 @@
-<footer>
-    <p>2023-08-07</p>
+<footer class ="footer">
+    <div class="container">
+        <p>&copy;2023 terimaro Website. All rights reserved.</p>
+    </div>    
 </footer>
 </div>
 

@@ -6,6 +6,7 @@
     <title><?php echo $title ?></title> <!-- 各ページのタイトルを表示する-->
     <meta name = "description" content="<?php echo $discription ?>"> <!--各ページのdiscriptionを表示する -->
     <link rel="stylesheet" href ="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
